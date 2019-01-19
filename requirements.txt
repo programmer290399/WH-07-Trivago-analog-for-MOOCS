@@ -1,4 +1,4 @@
 Flask
 Flask-RESTful
-Flask-SQLAlchemy
+Flask-pymongo
 uwsgi
