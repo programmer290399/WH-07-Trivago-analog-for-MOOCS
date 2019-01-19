@@ -14,11 +14,24 @@
 **Getting Started :-**
 > 1. Create a clone copy of this Directory
 > 2. 
-
+> 3.
 
 
 
 **Demostration of Project :-**
+
+
+
+
+
+
+
+**Preinstalled Software needed:-**
+>1.
+>2.
+>3.
+
+
 
 
 
