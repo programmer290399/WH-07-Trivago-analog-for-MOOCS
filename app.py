@@ -19,5 +19,17 @@ def get_all_data() :
         output.append({'name': q['name'] , 'provider' : q['provider']})
     return jsonify({'result':output})
 
+
+@app.route('/udacityData/<name>' , methods = ['GET'])
+def get_one_course(name):
+    udacityData = mongo.db.udacityData
+
+    output = []
+
+    for q in udacityData.find() :
+        if name in q['name'] : output.append({'name': q['name'] , 'provider' : q['provider']})
+
+
+    return jsonify({'result':output})
 if __name__=='__main__':
-    app.run(debug=True)
+    app.run()
