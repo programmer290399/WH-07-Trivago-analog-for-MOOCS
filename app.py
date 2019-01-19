@@ -9,24 +9,24 @@ app.config['MONGO_URI'] = 'mongodb://saahil_ali:saahil143aasim@ds261644.mlab.com
 
 mongo = PyMongo(app)
 
-@app.route('/udacityData' , methods= ['GET'])
+@app.route('/data' , methods= ['GET'])
 def get_all_data() :
-    udacityData = mongo.db.udacityData
+    data = mongo.db.data
 
     output = []
 
-    for q in udacityData.find():
-        output.append({'name': q['name'] , 'provider' : q['provider']})
-    return jsonify({'result':output})
+    for q in data.find():
+            output.append({'name': q['name']})
+    return jsonify({'result': output})
 
 
-@app.route('/udacityData/<name>' , methods = ['GET'])
+@app.route('/data/<name>' , methods = ['GET'])
 def get_one_course(name):
-    udacityData = mongo.db.udacityData
+    data = mongo.db.data
 
     output = []
 
-    for q in udacityData.find() :
+    for q in data.find() :
         if name in q['name'] : output.append({'name': q['name'] , 'provider' : q['provider']})
 
 
