@@ -16,7 +16,7 @@ def get_all_data() :
     output = []
 
     for q in data.find():
-            output.append({'name': q['name']})
+            output.append({'name': q['name'] , 'price' : q['price']  , 'rating' : q['rating'] , 'certification' : q['certification'], 'Level': q['Level'], 'duration': q['duration'],'course_link':q['course_link'] })
     return jsonify({'result': output})
 
 
@@ -27,9 +27,14 @@ def get_one_course(name):
     output = []
 
     for q in data.find() :
-        if name in q['name'] : output.append({'name': q['name'] , 'provider' : q['provider']})
+        if name in q['name'] : output.append({'name': q['name'] , 'price' : q['price']  , 'rating' : q['rating'] , 'certification' : q['certification'], 'Level': q['Level'], 'duration': q['duration'],'course_link':q['course_link'] })
 
 
     return jsonify({'result':output})
 if __name__=='__main__':
     app.run()
+
+
+
+
+
