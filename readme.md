@@ -1,2 +1,3 @@
 # **MOOC Hunter**
-![GitHub Logo]()
+
+![logo](/logo.png)
