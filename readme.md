@@ -1,3 +1,3 @@
 # **MOOC Hunter**
 
-![logo](/logo.png)
+![](/logo.jpg)
