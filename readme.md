@@ -11,6 +11,12 @@
 > 2. It's frontend is created  in android studio and the backend is developed in an restful API which is built in flask. 
 > 3. In this, we scrapped the some of the online courses available for example Udacity,Udemy, Cousera, Edx and used their data with the help of mongodb.
 
+**Getting Started :-**
+> 1. Create a clone copy of this Directory
+> 2. 
+
+
+
 
 **Demostration of Project :-**
 
