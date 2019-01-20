@@ -34,10 +34,10 @@
 >3.Flask API
 >4.Heroku CLI
 
-__you can download the pre-compiled copy of this here __
+__you can download the pre-compiled copy of this [here](https://drive.google.com/open?id=1KIyho5QogAoIrMz_pchBdIWv4AgLlKT_) __
 
 **Lisence**
-_This is an MIT liscense project._
+This is under MIT liscense 
 
 
 
