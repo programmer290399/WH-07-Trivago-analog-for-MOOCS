@@ -14,9 +14,9 @@
 **Getting Started :-**
 > 1. Create a clone copy of this Directory
 > 2. Deploy the backend (which is in main branch).
-> 3.Built the Frontend into a apk.
-> 4.Install the Apk on any android Device.
-> 5.!Boom you are good to go. 
+> 3. Built the Frontend into a apk.
+> 4. Install the Apk on any android Device.
+> 5. !Boom you are good to go. 
 
 
 
