@@ -13,8 +13,10 @@
 
 **Getting Started :-**
 > 1. Create a clone copy of this Directory
-> 2. 
-> 3.
+> 2. Deploy the backend (which is in main branch).
+> 3.Built the Frontend into a apk.
+> 4.Install the Apk on any android Device.
+> 5.!Boom you are good to go. 
 
 
 
@@ -26,11 +28,16 @@
 
 
 
-**Preinstalled Software needed:-**
->1.
->2.
->3.
+**Software Requirement:-**
+>1.Android studio
+>2.python 3.x
+>3.Flask API
+>4.Heroku CLI
 
+__you can download the pre-compiled copy of this here __
+
+**Lisence**
+_This is an MIT liscense project._
 
 
 
